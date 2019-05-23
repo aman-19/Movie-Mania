@@ -14,8 +14,8 @@ class Query():
 				lc = i
 				if i < len(prefix)-1:
 					continue
-			# returning strings only if more than 2 characters are matched
-			if lc >= 0:
+			# returning strings only if at least single character is matched
+			if lc >= 0 or prefix[i] in trie.keys():
 				self.rec_retrieve(temp, result, limit)
 				break
 		return result
