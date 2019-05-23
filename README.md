@@ -42,7 +42,7 @@ Now to use and see API in affect specific urls are to be used.
 A **prefix** is needed for autocomplete feature to work. Some *parameters* can be used to refine results, the first one obviously being the prefix while the others are : **limit** and **offset**.
 
  - **Url to use autocomplete -** **"http://127.0.0.1:8000/api/autocomplete?prefix=the"** 
-Here, you can see a *parameter "prefix" is paased after '?'* whose value is set to *'the*. This url will provide movies matching prefix 'the', **sorted according to their ratings in descending order.**
+Here, you can see a *parameter "prefix" is paased after '?'* whose value is set to *'the'*. This url will provide movies matching prefix 'the', **sorted according to their ratings in descending order.**
 
 - **Pass 'limit' parameter -** The parameter *limit* here defines the **maximum number of movies in result matching the prefix given.** To pass multiple paramters **'&'** symbol is used. Example :- **"http://127.0.0.1:8000/api/autocomplete?prefix=the&limit=10"**
 This url will now provide **only 10 movies at max matching 'the' prefix with their titles.**
