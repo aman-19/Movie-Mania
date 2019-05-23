@@ -16,7 +16,7 @@ Simple Django Application which autocomplete movie names on given prefix and giv
 
 Well you can check yourself if this works or not. Hopefully you have cloned or downloaded before using ;D
 Before you proceed make sure you have Django installed. 
-1. Start a [virtual environment] (https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) and navigate to repo directory where **manage.py** is located.
+1. Start a [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) and navigate to repo directory where **manage.py** is located.
 
 2. Run command - **python manage.py makemigrations**
 
@@ -25,6 +25,6 @@ Before you proceed make sure you have Django installed.
 Above two commands are used only when running App for the first time, just to check and apply settings. They are not needed when running local server again.
 
 4. Run command - **python manage.py runserver**
-  This will run a Django server on your local system which can be accessed in browser at [localhost] (http://127.0.0.1:8000/)
+  This will run a Django server on your local system which can be accessed in browser at [localhost](http://127.0.0.1:8000/)
 
 **Note :- Database used is sqlite beacuse of its easy portability. You will not have to create database. But it is recommended to use PostgreSQL or MongoDB.**
