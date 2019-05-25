@@ -43,13 +43,13 @@ A **prefix** is needed for autocomplete feature to work. Some *parameters* can b
 
  - **Url to use autocomplete -** **"http://127.0.0.1:8000/api/autocomplete?prefix=the"**
  
- Here, you can see a *parameter "prefix" is paased after '?'* whose value is set to *'the'*. This url will provide movies matching prefix 'the', **sorted according to their ratings in descending order.**
+ Here, you can see a *parameter "prefix" is passed after '?'* whose value is set to *'the'*. This url will provide movies matching prefix 'the', **sorted according to their ratings in descending order.**
 
 - **Pass 'limit' parameter -** The parameter *limit* here defines the **maximum number of movies in result matching the prefix given.** To pass multiple paramters **'&'** symbol is used. Example :- **"http://127.0.0.1:8000/api/autocomplete?prefix=the&limit=10"**
 
 This url will now provide **only 10 movies at max matching 'the' prefix with their titles.**
 
-- **Pass 'offset' parameter -** The parameter *offset* here defines that the **the number of movies which will be discarded  in result or skipping first 'offset' number of movies in result obtained after matching titles woth given prefix.** Example :- **"http://127.0.0.1:8000/api/autocomplete?prefix=the&limit=10"**
+- **Pass 'offset' parameter -** The parameter *offset* here defines that the **the number of movies which will be discarded  in result or skipping first 'offset' number of movies in result obtained after matching titles woth given prefix.** Example :- **"http://127.0.0.1:8000/api/autocomplete?prefix=the&limit=10&offset=3"**
 
 Now you will notice, first three movies which were shown in previous url are gone and 3 new movies are there at the end of the result.
 
