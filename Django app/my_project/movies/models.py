@@ -15,6 +15,6 @@ class Movies_list(models.Model):
     movie_name =  models.CharField(max_length=200)
     rating = models.FloatField(null=True, blank=True, default=None)
     year = models.IntegerField(default= None ,null=True,blank=True)
-    cast = models.ManyToManyField(Cast_List, null=True, blank=True)
+    cast = models.ManyToManyField(Cast_List, blank=True)
     def __str__(self):
         return self.movie_name

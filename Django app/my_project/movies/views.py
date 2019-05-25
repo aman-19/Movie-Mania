@@ -59,6 +59,7 @@ class Auto_complete_View(APIView):
 from .trie import make_Trie
 if len(my_project.settings.Trie) == 0:
     data = Movies_list.objects.all()
+    print("here")
     make_Trie(data, my_project.settings.Trie)
 
 

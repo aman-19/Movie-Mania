@@ -5,4 +5,4 @@ class Movies_list_Serializer(serializers.ModelSerializer):
 
     class Meta:
         model = Movies_list
-        fields = ('id','movie_name' ,'rating' , 'year' )
+        fields = ('id','movie_name' ,'rating' , 'year')
